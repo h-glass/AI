@@ -1,30 +1,4 @@
-@RELATION Sapfile1
-
-@ATTRIBUTE ge  {M,F}
-@ATTRIBUTE cst {G,ST,SC,OBC,MOBC}
-@ATTRIBUTE tnp {Best,Vg,Good,Pass,Fail}
-@ATTRIBUTE twp {Best,Vg,Good,Pass,Fail}
-@ATTRIBUTE iap {Best,Vg,Good,Pass,Fail}
-@ATTRIBUTE esp {Best,Vg,Good,Pass,Fail}
-@ATTRIBUTE arr {Y,N}
-@ATTRIBUTE ms  {Married,Unmarried}
-@ATTRIBUTE ls  {T,V}
-@ATTRIBUTE as  {Free,Paid}
-@ATTRIBUTE fmi {Vh,High,Am,Medium,Low}
-@ATTRIBUTE fs  {Large,Average,Small}
-@ATTRIBUTE fq  {Il,Um,10,12,Degree,Pg}
-@ATTRIBUTE mq  {Il,Um,10,12,Degree,Pg}
-@ATTRIBUTE fo  {Service,Business,Retired,Farmer,Others}
-@ATTRIBUTE mo  {Service,Business,Retired,Housewife,Others}
-@ATTRIBUTE nf  {Large,Average,Small}
-@ATTRIBUTE sh  {Good,Average,Poor}
-@ATTRIBUTE ss  {Govt,Private}
-@ATTRIBUTE me  {Eng,Asm,Hin,Ben}
-@ATTRIBUTE tt  {Large,Average,Small}
-@ATTRIBUTE atd {Good,Average,Poor}
-
-
-@DATA
+ge,cst,tnp,twp,iap,esp,arr,ms,ls,as,fmi,fs,fq,mq,fo,mo,nf,sh,ss,me,tt,atd
 F,G,Good,Good,Vg,Good,Y,Unmarried,V,Paid,Medium,Average,Um,10,Farmer,Housewife,Large,Poor,Govt,Asm,Small,Good
 M,OBC,Vg,Vg,Vg,Vg,N,Unmarried,V,Paid,Low,Average,Um,Il,Service,Service,Small,Poor,Govt,Asm,Average,Average
 F,OBC,Good,Good,Vg,Good,N,Unmarried,V,Paid,Am,Average,12,10,Service,Housewife,Average,Average,Govt,Asm,Large,Good
